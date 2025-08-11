@@ -24,7 +24,9 @@ function App() {
         <div className="hero-content">
           <h2>Cloud Engineer & Software Developer</h2>
           <p>
-            Master’s in Computer Science (AI & ML focus).  
+            Master’s in Computer Science (AI & ML focus). 
+          </p> 
+          <p>
             Currently working at <strong>Sectra</strong> as a Cloud Engineer.  
             Skilled in cloud, DevOps, and scalable systems.
           </p>
@@ -39,9 +41,11 @@ function App() {
       <section id="about" className="section fade-in">
         <h2>About Me</h2>
         <p>
-          I am passionate about designing and implementing cloud-based solutions,  
-          optimizing performance, and ensuring reliability.  
-          My focus is on combining automation with secure cloud infrastructure.
+           I am a dedicated software developer and cloud engineer with a Master’s degree specializing in Artificial Intelligence and Machine Learning.  
+          With over 3 years of hands-on experience in full-stack development, Kubernetes, and cloud-native solutions, I combine deep technical knowledge with a passion for innovation.  
+          I thrive in dynamic environments where I can leverage my skills in cloud infrastructure, automation, and performance optimization to deliver scalable, reliable software solutions.  
+          Currently, I’m enhancing cloud security and infrastructure at Sectra, while also advancing research in deterministic Kubernetes performance with Ericsson.  
+          I am eager to contribute to forward-thinking teams that value collaboration and continuous learning.
         </p>
       </section>
 
@@ -57,12 +61,12 @@ function App() {
             },
             {
               role: "Master Thesis — Ericsson",
-              date: "Jan 2023 – Present",
+              date: "Jan 2023 – Sep 2023",
               desc: "Research on deterministic Kubernetes performance."
             },
             {
               role: "Lab Assistant — Linköping University",
-              date: "Aug 2022 – Present",
+              date: "Aug 2022 – Sep 2023",
               desc: "Guided students in AI/ML labs."
             },
             {

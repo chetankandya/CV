@@ -145,11 +145,20 @@ body {
   color: white;
   text-align: center;
   padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.15rem;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
 }
 
 .footer a {
   color: #bae6fd;
   text-decoration: none;
+  font-weight: 600;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
 
 /* Animations */
