@@ -1,97 +1,31 @@
-body {
-  font-family: "Segoe UI", Tahoma, sans-serif;
-  background-color: #f5f7fa;
-  margin: 0;
-  padding: 0;
-  color: #333;
+html {
+  scroll-behavior: smooth;
 }
 
-.cv-wrapper {
-  display: flex;
-  max-width: 1200px;
-  margin: 2rem auto;
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
-  overflow: hidden;
+section {
+  transition: all 0.5s ease-in-out;
 }
 
-.cv-sidebar {
-  background: #1f2937;
-  color: white;
-  width: 30%;
-  padding: 2rem;
+section:hover {
+  transform: scale(1.01);
 }
 
-.cv-sidebar h1 {
-  font-size: 1.8rem;
-  margin-bottom: 0.2rem;
+a {
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
-.cv-sidebar h2 {
-  font-size: 1rem;
-  font-weight: 400;
-  margin-bottom: 1.5rem;
-}
-
-.cv-sidebar a {
-  color: #93c5fd;
-  text-decoration: none;
-}
-
-.cv-sidebar a:hover {
-  text-decoration: underline;
-}
-
-.cv-sidebar h3 {
-  margin-top: 1.5rem;
-  font-size: 1.1rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  padding-bottom: 0.3rem;
-}
-
-.cv-sidebar ul {
-  padding-left: 1.2rem;
-}
-
-.cv-main {
-  width: 70%;
-  padding: 2rem;
-}
-
-.section {
-  margin-bottom: 2rem;
-}
-
-.section h2 {
-  color: #2563eb;
-  border-bottom: 2px solid #e5e7eb;
-  padding-bottom: 0.3rem;
-  margin-bottom: 1rem;
-}
-
-.section ul {
-  padding-left: 1.5rem;
-}
-
-.section li {
-  margin-bottom: 0.6rem;
-}
-
-.project-link {
-  color: #2563eb;
-  text-decoration: none;
-}
-
-.project-link:hover {
-  text-decoration: underline;
-}
-
-@media (max-width: 900px) {
-  .cv-wrapper {
-    flex-direction: column;
+/* Fade-in animation for sections */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
   }
-  .cv-sidebar, .cv-main {
-    width: 100%;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
+}
+
+section {
+  animation: fadeInUp 0.8s ease forwards;
 }
