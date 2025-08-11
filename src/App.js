@@ -1,5 +1,5 @@
 import React from "react";
-import "./cv.css";
+import "./CV.css";
 
 function App() {
   return (
