@@ -135,8 +135,7 @@ function App() {
       {/* Contact */}
       <footer id="contact" className="footer">
         <h2>Contact</h2>
-        <p>Email: <a href="mailto:cheka108@student.liu.se">cheka108@student.liu.se</a></p>
-        <p>Phone: +46 7675 782 39</p>
+        <p>Email: <a href="mailto:cheka108@student.liu.se">chetankandya23@gmail.com</a></p>
         <p>© 2025 Chetan Kandya</p>
       </footer>
     </div>
