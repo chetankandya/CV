@@ -141,7 +141,7 @@ body {
 
 /* Footer */
 .footer {
-  background: #0369a1;
+  background-color: #0ea5e9; /* same as header/nav sky blue */
   color: white;
   text-align: center;
   padding: 40px 20px;
@@ -149,6 +149,23 @@ body {
   font-size: 1.15rem;
   letter-spacing: 0.03em;
   line-height: 1.6;
+}
+
+.footer a {
+  color: #bae6fd; /* lighter sky blue for links */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer .name {
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
 }
 
 /* Animations */

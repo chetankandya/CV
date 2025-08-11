@@ -40,12 +40,9 @@ function App() {
       {/* About */}
       <section id="about" className="section fade-in">
         <h2>About Me</h2>
-        <p>
-           I am a dedicated software developer and cloud engineer with a Master’s degree specializing in Artificial Intelligence and Machine Learning.  
-          With over 3 years of hands-on experience in full-stack development, Kubernetes, and cloud-native solutions, I combine deep technical knowledge with a passion for innovation.  
-          I thrive in dynamic environments where I can leverage my skills in cloud infrastructure, automation, and performance optimization to deliver scalable, reliable software solutions.  
-          Currently, I’m enhancing cloud security and infrastructure at Sectra, while also advancing research in deterministic Kubernetes performance with Ericsson.  
-          I am eager to contribute to forward-thinking teams that value collaboration and continuous learning.
+        <p> I am a dedicated software developer and cloud engineer with a Master’s degree specializing in Artificial Intelligence and Machine Learning. </p>
+        <p> With over 3 years of hands-on experience in full-stack development, Kubernetes, and cloud-native solutions, I combine deep technical knowledge with a passion for innovation.</p>  
+        <p> I thrive in dynamic environments where I can leverage my skills in cloud infrastructure, automation, and performance optimization to deliver scalable, reliable software solutions. Currently, I’m enhancing cloud security and infrastructure at Sectra. I am eager to contribute to forward-thinking teams that value collaboration and continuous learning.
         </p>
       </section>
 
@@ -136,7 +133,7 @@ function App() {
       <footer id="contact" className="footer">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:cheka108@student.liu.se">chetankandya23@gmail.com</a></p>
-        <p>© 2025 Chetan Kandya</p>
+         <p className="name">© 2025 Chetan Kandya</p>
       </footer>
     </div>
   );
