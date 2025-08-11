@@ -151,16 +151,6 @@ body {
   line-height: 1.6;
 }
 
-.footer a {
-  color: #e2ebf0;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.footer a:hover {
-  text-decoration: underline;
-}
-
 /* Animations */
 .fade-in {
   animation: fadeInUp 0.8s ease forwards;
